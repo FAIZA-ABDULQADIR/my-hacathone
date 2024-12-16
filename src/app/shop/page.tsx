@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+
 
 // Define the ItemGrid component
 function ItemGrid() {
@@ -120,7 +119,7 @@ function FeatureSection() {
 function Shop() {
   return (
     <div className="w-1440 h-3474 px-4 md:px-8 lg:px-16">
-      <Navbar />
+     
       <Image
         src="/back.png"
         alt="Background Image"
@@ -143,7 +142,7 @@ function Shop() {
         <ItemGrid />
         <Pagination />
         <FeatureSection  />
-       <Footer />
+      
 </div>
    
   );
